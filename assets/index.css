@@ -41,6 +41,13 @@ body {
    padding: 10px 0;
    margin: 20px 0px 20px;
 }
+.donate{
+ margin-left: 800px;
+
+}
+.donate > i{
+    color: #004aad;
+}
 .slogan{
     height: 550px;
     width: 750px;
@@ -241,6 +248,9 @@ margin-left: 15%;}
 }
 .footer{
     margin-top: 100px;
+}
+.footer img{
+    margin-left: 4px;
 }
 /*
  top:0;
