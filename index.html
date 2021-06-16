@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/index.css">
+    <title>EnaMaak</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar"> 
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" class="logo" alt="logo">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbarel" href="#ourDescription">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbarel" href="#Servicess">Services</a>
+          </li>
+            <li class="nav-item">
+                <a class="navbarel" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarel" href="#">Join us</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      
+<!--body-->
+<div class="bodyContainer">
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="images/1.png" style="width:65%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/2.png" style="width:65%">
+  </div>
+</div>
+<br>
+<div class="dots" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+    <div class="role">
+    <div class="ourMission">
+        <h2 class="title faded">Our Mission</h2>
+        <p>
+            &emsp;
+            Provide the best transportation and
+            companionship services for the visually
+            impaired of all ages, guaranteeing
+            utmost security and comfort.
+            <img src="images/mission.jpg" alt="mission">
+        </p>
+      
+    </div>
+    <div class="ourVision">
+        <h2 class="title faded">Our Vision</h2>
+        <p>
+            &emsp;
+            To create equal opportunities to people
+            with special needs in order to support
+            and sustain an inclusive economic and
+            social-ecosystem.
+            <img src="images/vision.jpg" alt="mission"  id="ourDescription">
+        </p>
+    </div>
+    <div class="ourDescription">
+        <h2 class="title faded" >Description</h2>
+        <p>
+            &emsp;
+            Ena Maak is a company that provides
+            individualized services to the visually impaired,
+            through which it aims to facilitate our clients'
+            everyday life. Ena Maak provides a variety of
+            services, from transportation to companionship
+            along with other features such as delivery
+            services, paying bills, grocery shopping...
+            <img src="images/undraw_survey_05s5.svg" alt="mission">
+        </p>
+    </div>
+</div>
+</div>
+<!--services-->
+<div class="services" id="Servicess">
+    <h1 style="font-size:3em; " class="faded">S E R V I C E S</h1>
+    <div class="serviceRow1">
+        <div class="service tranport">
+            <h2 class="faded">Transportation</h2>
+            <img src="images/transport-public.png">
+            <p>We aim to provide the best transportation services for the visually impaired of all ages, guaranteeing their utmost security and comfort.
+            </p>
+            <div class="services__btn"><a href="shopping.php"><button class="btn btn1 btnServ">Catalogue</button></a></div>
+        </div>
+        <div class="service accompaniment">
+            <h2 class="faded">Accompaniment</h2>
+            <img src="images/companionship.png">
+            <p>We aim to provide the best accompaniment services for the visually impaired of all ages, guaranteeing their utmost security and comfort.
+            </p>
+            <div class="services__btn"><a href="recette.php"><button class="btn btn2 btnServ">Recettes</button></a></div>
+        </div>
+        <div class="service grocery">
+            <h2 class="faded">Grocery shopping</h2>
+            <img src="images/grocery-cart.png">
+            <p>Whether we escort our clients during their grocery shopping or have ther groceries delivered to them.
+            </p>
+            <div class="services__btn"><a href="Journal.php"><button class="btn btn1 btnServ">Journal</button></a></div>
+        </div>
+        </div>
+        <div class="serviceRow2">
+        <div class="service bills">
+            <h2 class="faded">Paying bills</h2>
+            <img src="images/bill.png">
+            <p>We want to relieve our clients from this burden and allow them to pay their bills with a simple clicl from the comfort to their homies.
+            </p>
+            <div class="services__btn"><a href="Restaurant.php"><button class="btn btn2 btnServ">Carte</button></a></div>
+        </div>
+        <div class="service delivery">
+            <h2 class="faded">Delivery services</h2>
+            <img src="images/delivery-man.png">
+            <p id="delivery">Whether we escort our clients during their grocery shopping or have ther groceries delivered to them.
+            </p>
+            <div class="services__btn"><a href="faq.php"><button class="btn btn1 btnServ">FAQ</button></a></div>
+        </div>
+      </div>
+    </div>
+</div>
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              EnaMaak
+            </h6>
+            <img src="images/logo.png" height="50px" width="90px">
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Companionship</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Transportation</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Grocery shopping</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Delivery Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Paying bills</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>Tunis</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+                Ena.maak@outlook.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +216 58 140 827</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://EnaMaak.com/">www.ENAMAAK.tn</a>
+    </div>
+  </footer>
+</body>
+<script src="index.js">
+</script>
+</html>
